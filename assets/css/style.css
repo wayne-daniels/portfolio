@@ -123,3 +123,9 @@ section {
 img {
   height: 250px;
 }
+.app-link {
+  font-family: spartan;
+  font-weight: 400;
+  font-size: 1.75rem;
+  margin: 2rem;
+}
