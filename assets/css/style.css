@@ -1,8 +1,13 @@
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  align-items: center;
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
   width: 100%;
   padding: 10px 16px;
   background: #6C6A89;
@@ -39,7 +44,6 @@ h1 {
 h2 {
   font-family: spartan;
   font-size: 900;
-  margin-left: 2rem;
 }
 
 .content {
@@ -61,10 +65,29 @@ h2 {
   font-size: 200;
   font-size: 1.5rem;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+}
+
+.about-me{
+  display: flex;
+}
+
+p {
+  font-family: spartan;
+  font-size: 200;
+}
 
 .skills {
   display: flex;
-  flex-direction: column;
 }
 
 img {
