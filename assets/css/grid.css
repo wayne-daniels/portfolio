@@ -1,6 +1,5 @@
 .temp-row {
   width: 100%;
-  margin: 0 auto;
   display: flex;
   margin-bottom: .5rem;
   justify-content: space-between;
