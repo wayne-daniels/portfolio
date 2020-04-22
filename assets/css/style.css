@@ -74,23 +74,35 @@ h2 {
 main {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 95%;
   justify-content: center;
 }
 section {
   display: flex;
   flex-direction: row;
-  width: 90vw;
 }
 
-.about-me{
+section.about-me{
   display: flex;
+  flex-direction: column;
+  background-image: url(../images/about-me-background.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+}
+
+.about > h2 {
+  padding-left: 1.5rem;
+  color: white;
 }
 
 .about > p {
+  padding-left: 1.5rem;
   font-family: spartan;
   font-weight: 400;
   font-size: 1.75rem;
+  color: white;
+  line-height: 2;
 }
 
 .skills {
@@ -120,8 +132,35 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
+
 img {
   height: 250px;
+}
+
+.apps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.app-pair > img {
+  height: 500px;
+}
+
+div.app-pair > a {
+  text-align: center;
+}
+
+.app-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.app-pair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .app-link {
   font-family: spartan;
