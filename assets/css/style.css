@@ -1,3 +1,8 @@
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -39,6 +44,12 @@ body {
   font-size: 1.25rem;
   text-decoration: none;
   color: white;
+}
+
+.scroll:hover {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5),
+               10px 10px 10px rgba(0, 0, 0, 1);
+  color: greenyellow;
 }
 
 h1 {
@@ -167,9 +178,38 @@ div.app-pair > a {
   flex-direction: column;
   align-items: center;
 }
+
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
 .app-link {
   font-family: spartan;
   font-weight: 400;
   font-size: 1.75rem;
   margin: 2rem;
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.app-link-2 {
+  font-family: spartan;
+  font-weight: 400;
+  font-size: 1.75rem;
+  margin: 2rem;
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.app-link:hover {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25),
+               10px 10px 10px rgba(0, 0, 0, 0.5);
+  color: blueviolet;
 }
