@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/css/grid.css">
   <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
   <header class="header temp-row" id="myHeader">
@@ -17,26 +18,26 @@
     <div class="col-5 sections-column">
       <div class="header-row">
         <div class="header-sections col-2">
-          <p>About Me</p>
+          <a href="#about" class="scroll" data-offset="150">About Me</a>
         </div>
         <div class="header-sections col-2">
-          <p>Skills</p>
+          <a href="#skills" class="scroll" data-offset="150">Skills</a>
         </div>
         <div class="header-sections col-2">
-          <p>Apps</p>
+          <a href="#apps" class="scroll" data-offset="150">Apps</a>
         </div>
         <div class="header-sections col-2">
-          <p>Contact</p>
+          <a>Contact</a>
         </div>
       </div>
     </div>
   </header>
   <main>
-    <section class="about-me">
-      <div class="about">
+    <section id="about" class="about-me">
+      <div class="about col-11">
         <h2>About Me</h2>
         <p>
-          With a strong background as a print production artist, I recently
+          With an extensive background as a print production artist, I recently
           embarked on a journey into web development.  Translating many of my
           previous skills into a new medium with a new language has been an
           adventure.  While often challenging, I enjoy learning new skills and
@@ -45,7 +46,7 @@
         </p>
       </div>
     </section>
-    <section class="skills">
+    <section id="skills" class="skills">
       <div class="col-12">
         <h2>Skills</h2>
         <div class="icon-rows">
@@ -92,7 +93,7 @@
         </div>
       </div>
     </section>
-    <section class="apps">
+    <section id="apps" class="apps">
       <div>
         <h2>Apps</h2>
           <div class="app-row">
