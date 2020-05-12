@@ -1,6 +1,7 @@
 html {
     margin-left: calc(100vw - 100%);
     margin-right: 0;
+    margin-left: 0;
 }
 
 body {
@@ -242,4 +243,8 @@ div.app-pair > a {
 
 .contact-col > a:hover {
   color: #0000E8;
+}
+
+footer {
+  height: 75px;
 }
