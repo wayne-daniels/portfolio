@@ -7,6 +7,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  padding: 0;
   margin: 0 auto;
   align-items: center;
 }
@@ -18,6 +19,24 @@ body {
   padding: 10px 16px;
   background: #6C6A89;
   color: #f1f1f1;
+  text-decoration: none;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+  font-family: spartan;
+  font-weight: 600;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
 }
 
 .sections-column {
@@ -27,7 +46,13 @@ body {
   margin-right: 2rem;
 }
 
-.header-row {
+li {
+  list-style-type: none;
+  font-family: spartan;
+  font-weight: 400;
+}
+
+/* .header-row {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -45,7 +70,7 @@ body {
   font-size: 1.75rem;
   text-decoration: none;
   color: white;
-}
+} */
 
 .apps {
   margin-left: 2rem;
@@ -69,12 +94,12 @@ h2 {
   font-size: 3rem;
 }
 
-.border-bottom {
+/* .border-bottom {
   width: 30rem;
   height: 4rem;
   background-color: red;
   margin-top: -15px;
-}
+} */
 
 .content {
   padding: 16px;
@@ -121,6 +146,7 @@ section.about-me{
 
 .about > h2 {
   color: white;
+  text-decoration-line: underline;
 }
 
 .about > p {
