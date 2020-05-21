@@ -58,15 +58,22 @@ body {
 
 h1 {
   font-family: spartan;
-  font-weight: 900;
+  font-weight: 700;
   margin-left: 2rem;
   font-size: 4rem;
 }
 
 h2 {
   font-family: spartan;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 3rem;
+}
+
+.border-bottom {
+  width: 30rem;
+  height: 4rem;
+  background-color: red;
+  margin-top: -15px;
 }
 
 .content {
@@ -100,13 +107,15 @@ section {
 }
 
 section.about-me{
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(../images/about-me-background.jpg);
   background-repeat: no-repeat;
-  height: 500px;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
 }
 
