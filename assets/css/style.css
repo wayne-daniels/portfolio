@@ -7,9 +7,8 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  padding: 0;
-  margin: 0 auto;
   align-items: center;
+  margin: 0 auto;
 }
 
 .header {
@@ -52,26 +51,6 @@ li {
   font-weight: 400;
 }
 
-/* .header-row {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.header-sections {
-  font-family: spartan;
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-}
-
-.header-sections > a {
-  font-size: 1.75rem;
-  text-decoration: none;
-  color: white;
-} */
-
 .apps {
   margin-left: 2rem;
 }
@@ -93,13 +72,6 @@ h2 {
   font-weight: 700;
   font-size: 3rem;
 }
-
-/* .border-bottom {
-  width: 30rem;
-  height: 4rem;
-  background-color: red;
-  margin-top: -15px;
-} */
 
 .content {
   padding: 16px;
