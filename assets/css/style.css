@@ -29,7 +29,7 @@ body {
   font-weight: 600;
 }
 .nav-link {
-  margin-right: 1em !important;
+  margin-right: 1em;
 }
 .nav-link:hover {
   color: #000;
@@ -107,9 +107,8 @@ main {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  /* background: #0A60FF; */
-background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(29,14,199,1) 40%, rgba(0,185,255,1) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(29,14,199,1) 40%, rgba(0,185,255,1) 100%);
   background-size: cover;
 }
 
@@ -117,8 +116,6 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(29,14,199,1) 40%, rg
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  /* background-image: url(../images/about-me-background.jpg);
-  background-repeat: no-repeat; */
   width: 70%;
   border-bottom: 2px;
   padding-right: 2rem;
