@@ -108,17 +108,9 @@ main {
   width: 100vw;
   height: 100vh;
   /* background: #0A60FF; */
-  background-image: url(../images/about-me-background.jpg);
-  background-repeat: no-repeat;
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(29,14,199,1) 40%, rgba(0,185,255,1) 100%);
   background-size: cover;
-}
-
-img {
-
-}
-
-.col-12 {
-
 }
 
 .title-box {
@@ -135,6 +127,7 @@ img {
 .bot-left {
   position: relative;
 }
+
 .bot-left:before, .bot-left:after {
   content: "";
   position: absolute;
@@ -142,6 +135,7 @@ img {
   left: -3px;
 
 }
+
 .bot-left:before {
   top: -3px;
   width: 3px;
@@ -150,6 +144,7 @@ img {
   background-image: -moz-linear-gradient(transparent, #FF680A);
   background-image: -o-linear-gradient(transparent, #FF680A);
 }
+
 .bot-left:after {
   right: -3px;
   height: 3px;
@@ -167,6 +162,7 @@ img {
 .mySlides {
   display: flex;
   justify-content: row;
+  margin-top: 0.5rem;
   width: 50%;
   color: white;
 }
