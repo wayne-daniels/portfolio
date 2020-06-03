@@ -1,17 +1,23 @@
 @media only screen and (min-width: 375px) and (max-height: 812px) and (orientation: portrait) {
+
   .header > a {
     font-size: 1.0rem;
     text-decoration: none;
     color: white;
    }
 
-  .nav-link {
-    margin-right: 0.5em;
+   a.nav-link {
+    font-size: 1rem;
+    color: white;
    }
 
-   a.nav-link {
-    font-size: 0.25rem;
+   a.navbar-brand {
+    font-size: 1.75rem;
     color: white;
+   }
+
+   .navbar-nav {
+    margin-right: 1rem;
    }
 
    .title-box > h1 {

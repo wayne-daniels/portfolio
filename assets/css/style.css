@@ -11,14 +11,22 @@ body {
   margin: 0 auto;
 }
 
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   padding: 10px 16px;
   background: #6C6A89;
   color: #f1f1f1;
   text-decoration: none;
+  z-index: 3;
 }
 
 .nav-link,
@@ -154,6 +162,7 @@ main {
 .title-box > h1 {
   color: white;
   font-size: 5rem;
+  z-index: 0;
 }
 
 .mySlides {
@@ -162,6 +171,7 @@ main {
   margin-top: 0.5rem;
   width: 50%;
   color: white;
+  z-index: 0;
 }
 
 section {
