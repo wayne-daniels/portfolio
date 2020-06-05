@@ -62,6 +62,7 @@ li {
 .apps {
   margin-left: 2rem;
 }
+
 .scroll:hover {
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5),
                10px 10px 10px rgba(0, 0, 0, 1);
@@ -115,8 +116,8 @@ main {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(29,14,199,1) 40%, rgba(0,185,255,1) 100%);
+  background: white;
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,14,199,1) 40%, rgba(0,185,255,1) 100%); */
   background-size: cover;
 }
 
@@ -160,7 +161,7 @@ main {
 }
 
 .title-box > h1 {
-  color: white;
+  color: darkblue;
   font-size: 5rem;
   z-index: 0;
 }
@@ -170,13 +171,15 @@ main {
   justify-content: row;
   margin-top: 0.5rem;
   width: 50%;
-  color: white;
+  color: darkblue;
   z-index: 0;
 }
 
 section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
 
 section.about-me{
@@ -210,9 +213,19 @@ section.about-me{
 
 .skills {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.col-12 > h2 {
+.skills > .col-10 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.skills.col-10 > h2 {
   display: flex;
   flex-direction: row;
 }
@@ -229,21 +242,29 @@ section.about-me{
   align-items: center;
   font-family: spartan;
   font-weight: 600;
-  margin: 1rem;
+  margin: 1.5rem;
 }
 .icon-rows {
   display: flex;
   flex-wrap: wrap;
 }
 
-img {
-  height: 250px;
+.icon > img {
+  height: 100px;
+}
+
+.icon > h3 {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .apps {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 4rem;
+  height: 100vh;
+  align-items: center;
 }
 
 div.app-pair > img {
@@ -254,7 +275,7 @@ div.app-pair > a {
   text-align: center;
 }
 
-.app-row {
+.app-rows {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -264,6 +285,10 @@ div.app-pair > a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+div.app-pair > img {
+  height: 350px;
 }
 
 .links {
