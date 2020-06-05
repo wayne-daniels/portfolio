@@ -213,6 +213,7 @@ section.about-me{
 .skills {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .skills > .col-10 {
@@ -220,6 +221,7 @@ section.about-me{
   flex-direction: column;
   height: 100vh;
   margin-top: 4rem;
+  justify-content: center;
 }
 
 .skills.col-10 > h2 {
@@ -239,7 +241,7 @@ section.about-me{
   align-items: center;
   font-family: spartan;
   font-weight: 600;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 .icon-rows {
   display: flex;
@@ -247,11 +249,12 @@ section.about-me{
 }
 
 .icon > img {
-  height: 150px;
+  height: 100px;
 }
 
 .icon > h3 {
   text-align: center;
+  font-size: 2rem;
 }
 
 .apps {
