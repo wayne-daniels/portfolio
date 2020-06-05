@@ -177,6 +177,8 @@ main {
 section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
 
 section.about-me{
@@ -210,9 +212,17 @@ section.about-me{
 
 .skills {
   display: flex;
+  flex-direction: row;
 }
 
-.col-12 > h2 {
+.skills > .col-10 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 4rem;
+}
+
+.skills.col-10 > h2 {
   display: flex;
   flex-direction: row;
 }
@@ -229,21 +239,26 @@ section.about-me{
   align-items: center;
   font-family: spartan;
   font-weight: 600;
-  margin: 1rem;
+  margin: 2rem;
 }
 .icon-rows {
   display: flex;
   flex-wrap: wrap;
 }
 
-img {
-  height: 250px;
+.icon > img {
+  height: 150px;
+}
+
+.icon > h3 {
+  text-align: center;
 }
 
 .apps {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 4rem;
 }
 
 div.app-pair > img {
