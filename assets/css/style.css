@@ -168,7 +168,7 @@ main {
   justify-content: row;
   margin-top: 0.5rem;
   width: 50%;
-  color: darkblue;
+  color: #FF680A;
   z-index: 0;
 }
 
@@ -182,14 +182,19 @@ section {
 section.about-me{
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-image: url(../images/about-me-background.jpg);
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   background-size: cover;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about > h2 {
@@ -215,17 +220,18 @@ section.about-me{
   justify-content: center;
 }
 
-.skills > .col-10 {
+.skills > .col-11 {
   display: flex;
   flex-direction: column;
   height: 100vh;
   margin-top: 4rem;
-  justify-content: center;
 }
 
-.col-5 > h2 {
+.col-7 > h2 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  text-decoration-line: underline;
 }
 
 .skill-row {
@@ -237,6 +243,7 @@ section.about-me{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 .icon {
@@ -261,13 +268,24 @@ section.about-me{
   font-size: 2rem;
 }
 
-.apps {
+#apps {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+}
+
+.app-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  align-content: center;
+}
+
+.app-title {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 4rem;
-  height: 100vh;
-  align-items: center;
 }
 
 div.app-pair > img {
@@ -282,6 +300,7 @@ div.app-pair > a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 10rem;
 }
 
 .app-pair {
@@ -338,11 +357,18 @@ div.app-pair > img {
   align-items: center;
 }
 
+.col-11 > h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .contact-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   height: 30vh;
+  margin-top: 4rem;
 }
 
 .contact-col {
