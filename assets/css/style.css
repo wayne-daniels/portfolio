@@ -116,8 +116,14 @@ main {
   width: 100vw;
   height: 100vh;
   background: white;
-  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,14,199,1) 40%, rgba(0,185,255,1) 100%); */
   background-size: cover;
+}
+
+.webpage-intro > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 95%;
 }
 
 .title-box {
@@ -280,7 +286,6 @@ section.about-me{
 .app-column {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5rem;
   align-content: center;
 }
 
@@ -288,6 +293,7 @@ section.about-me{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 5rem;
 }
 
 div.app-pair > img {
