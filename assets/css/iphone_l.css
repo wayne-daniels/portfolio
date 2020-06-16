@@ -12,19 +12,82 @@
     font-size: 1.75rem;
    }
 
-  .mySlides > h1 {
-    color: white;
-    font-size: 5rem;
+   .webpage-intro {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    background-size: cover;
+   }
+
+   .title-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    border-bottom: 2px;
+    padding-right: 2rem;
   }
+
+   .bot-left > h1 {
+    font-size: 2.5rem;
+    color: darkblue;
+   }
+
+   .mySlides > h1 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+   }
+
+  h1 {
+    font-family: spartan;
+    font-weight: 900;
+    font-size: 2rem;
+   }
+
+  h2 {
+    font-size: 2rem;
+   }
+
+  h3 {
+     font-size: 1.25rem;
+   }
 
   section.about-me{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-image: url(../images/about-me-background.jpg);
     background-repeat: no-repeat;
-    height: 650px;
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
+    margin: 0 auto;
    }
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about > h2 {
+  color: white;
+  text-decoration-line: underline;
+}
+
+.about > p {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.5rem;
+  font-family: spartan;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  line-height: 2.5;
+}
   }
