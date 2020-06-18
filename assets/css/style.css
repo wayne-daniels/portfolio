@@ -190,7 +190,6 @@ section {
 section.about-me{
   margin: 0 auto;
   display: flex;
-  align-items: center;
   background-image: url(../images/about-me-background.jpg);
   background-repeat: no-repeat;
   width: 100vw;
@@ -198,7 +197,7 @@ section.about-me{
   background-size: cover;
 }
 
-.about {
+div.about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -251,7 +250,7 @@ section.about-me{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 9rem;
 }
 
 .icon {
@@ -260,7 +259,7 @@ section.about-me{
   align-items: center;
   font-family: spartan;
   font-weight: 600;
-  margin: 1.5rem;
+  margin: 1.0rem;
 }
 .icon-rows {
   display: flex;
@@ -273,7 +272,7 @@ section.about-me{
 
 .icon > h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #apps {
@@ -308,7 +307,7 @@ div.app-pair > a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 10rem;
+  margin-bottom: 20rem;
 }
 
 .app-pair {
@@ -376,7 +375,7 @@ div.app-pair > img {
   flex-direction: row;
   justify-content: center;
   height: 30vh;
-  margin-top: 4rem;
+  margin-bottom: 10rem;
 }
 
 .contact-col {
