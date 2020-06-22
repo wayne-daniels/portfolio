@@ -12,7 +12,7 @@
    }
 
    a.navbar-brand {
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     color: white;
    }
 
@@ -29,29 +29,46 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 100vh;
    }
 
    .slideshow-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
    }
 
+   .title-box {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 70%;
+   }
+
    .title-box > h1 {
-     font-size: 2.5rem;
+     font-size: 1.5rem;
      width: 90%;
      justify-content: center;
      text-align: center;
-     padding-left: 2rem;
+   }
+
+   .mySlides {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 90%;
+     margin-right: 2rem;
    }
 
    .mySlides > h1 {
-    margin-top: 2.5rem;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
+   }
+
+   div.text-align:center {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
    }
 
   section.about-me {
@@ -63,7 +80,6 @@
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
-    margin: 0 auto;
    }
 
   div.about > p {
@@ -73,15 +89,14 @@
   #skills {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
   }
 
   .skills > .col-11 {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin-top: 4rem;
+    justify-content: center;
+    margin-bottom: 10rem;
   }
 
   .col-7 > h2 {
@@ -90,6 +105,7 @@
     justify-content: center;
     text-decoration-line: underline;
     font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   #skills {
@@ -111,12 +127,12 @@
     align-items: center;
     font-family: spartan;
     font-weight: 600;
-    margin: 1.5rem;
+    margin: 1.25rem;
   }
   .icon-rows {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0.25rem;
+    margin: 0.625rem;
   }
 
   .icon > img {
@@ -127,7 +143,7 @@
 
   .icon > h3 {
     text-align: center;
-    font-size: 1.0rem;
+    font-size: 0.75rem;
   }
 
   #apps {
@@ -183,10 +199,23 @@
 
   .contact-col {
     width: 50vw;
+    margin-bottom: 5rem;
   }
 
   .fa {
     height: 100px;
+  }
+  #contact {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  .contact-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
   }
 
   .contact-row {
@@ -195,6 +224,6 @@
   }
 
   .contact-col > a:nth-of-type(2) {
-      font-size: 1.25rem;
+    font-size: 1.25rem;
   }
 }
