@@ -28,14 +28,25 @@
    #home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    width: 100vw;
     height: 100vh;
+    background: white;
+   }
+
+   .webpage-intro > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
    }
 
    .slideshow-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
    }
 
    .title-box {
@@ -81,6 +92,14 @@
     height: 100vh;
     background-size: cover;
    }
+
+   div.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
 
   div.about > p {
     font-size: 1.5rem;
@@ -131,8 +150,9 @@
   }
   .icon-rows {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin: 0.625rem;
+    margin-top: 2rem;
   }
 
   .icon > img {
