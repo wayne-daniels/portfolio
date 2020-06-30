@@ -368,14 +368,20 @@ div.app-pair > img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
+.contact-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
 .contact-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 30vh;
-  margin-bottom: 10rem;
+  height: 15vh;
+  margin-bottom: 5rem;
 }
 
 .contact-col {
@@ -398,11 +404,12 @@ div.app-pair > img {
   color: #0000E8;
 }
 
-footer {
+footer.temp-row{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 75px;
   margin: 0 auto;
+  margin-bottom: 0;
 }
