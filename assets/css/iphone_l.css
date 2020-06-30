@@ -73,8 +73,6 @@
 
   section.about-me{
     display: flex;
-    background-image: url(../images/about-me-background.jpg);
-    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -101,23 +99,39 @@
     font-weight: 400;
     font-size: 1.5rem;
     color: white;
-    line-height: 2.5;
+    line-height: 2.0;
     margin-bottom: 8rem;
   }
 
   #skills {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
   }
 
   #skills > .col-11 {
     display: flex;
     flex-direction: column;
+    margin-top: 8rem;
     align-items: center;
+    justify-content: center;
   }
+
+  .skill-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+  div.col-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
 
   .col-7 > h2 {
     display: flex;
@@ -131,6 +145,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 10rem;
   }
 
   .icon {
@@ -144,7 +159,7 @@
   .icon-rows {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
 
   .icon > img {
@@ -154,6 +169,7 @@
   .icon > h3 {
     text-align: center;
     font-size: 1rem;
+    margin-top: 1rem;
   }
 
   #apps {
@@ -169,11 +185,13 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    margin-bottom: 9rem;
   }
 
   .app-rows {
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
   }
 
   .app-pair {
@@ -200,15 +218,21 @@
     align-items: center;
     justify-content: center;
   }
-  .contact-column {
+
+  div.col-11 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
+  div.col-11 > div {
+    margin-bottom: 7rem;
+  }
+
   .contact-row {
     height: 3vh;
+    margin-bottom: 7rem;
   }
 
   .contact-col > .fa {
