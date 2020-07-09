@@ -274,6 +274,10 @@ div.about {
 }
 
 .app-column {
+  text-decoration-line: underline;
+}
+
+.app-column {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -360,6 +364,7 @@ div.app-pair > img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-decoration-line: underline;
 }
 
 .contact-column {
