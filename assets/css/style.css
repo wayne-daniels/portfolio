@@ -273,7 +273,7 @@ div.about {
   align-items: center;
 }
 
-.app-column {
+.app-column > h2{
   text-decoration-line: underline;
 }
 
