@@ -9,17 +9,17 @@
   .navbar-nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 90%;
   }
 
    a.nav-link {
-    font-size: 1rem;
+    font-size: 0.75rem;
     color: white;
    }
 
    a.navbar-brand {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: white;
    }
 
@@ -52,35 +52,37 @@
    .slideshow-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    height: 10vh;
    }
 
    .title-box {
      display: flex;
      flex-direction: row;
+     align-self: flex-start;
      justify-content: center;
-     width: 70%;
+     width: 55%;
    }
 
    .title-box > h1 {
-     font-size: 1.5rem;
-     width: 90%;
-     justify-content: center;
+     font-size: 1.375rem;
      text-align: center;
    }
 
    .mySlides {
      display: flex;
      flex-direction: row;
+     align-self: flex-end;
      justify-content: center;
-     width: 90%;
+     width: 50%;
      margin-right: 2rem;
    }
 
    .mySlides > h1 {
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     text-align: center;
+    margin-bottom: 1.5rem;
    }
 
    div.text-align:center {

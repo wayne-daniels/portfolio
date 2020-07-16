@@ -35,6 +35,14 @@ body {
 .nav-link:hover {
   color: #000;
 }
+
+/* a.navbar-brand {
+  font-family: 'Anton', sans-serif;
+  font-weight: 100;
+  font-size: 4.25rem;
+  color: white;
+} */
+
 .navbar-collapse {
   justify-content: flex-end;
 }
