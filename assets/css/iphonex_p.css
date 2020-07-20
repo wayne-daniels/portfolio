@@ -109,9 +109,13 @@
     align-items: center;
    }
 
+  .about > h2 {
+    font-size: 2rem;
+  }
 
   div.about > p {
     font-size: 1.5rem;
+    margin-bottom: 7rem;
    }
 
   #skills {
@@ -124,7 +128,7 @@
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
   }
 
   .col-7 > h2 {
@@ -188,7 +192,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 
   h2.app-title {
@@ -244,7 +248,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 12rem;
   }
 
   .contact-row {
