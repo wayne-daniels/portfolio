@@ -250,6 +250,11 @@
     flex-direction: row;
     height: 100vh;
   }
+
+  #contact > div.col-11 > h2 {
+    font-size: 2rem;
+  }
+
   .contact-column {
     display: flex;
     flex-direction: column;
