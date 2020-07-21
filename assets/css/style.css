@@ -36,12 +36,12 @@ body {
   color: #000;
 }
 
-/* a.navbar-brand {
-  font-family: 'Anton', sans-serif;
-  font-weight: 100;
-  font-size: 4.25rem;
+a.navbar-brand {
+  font-family: 'spartan', sans-serif;
+  font-weight: 800;
+  font-size: 3.25rem;
   color: white;
-} */
+}
 
 .navbar-collapse {
   justify-content: flex-end;
@@ -283,6 +283,7 @@ div.about {
 
 .app-column > h2{
   text-decoration-line: underline;
+  margin-bottom: 5rem;
 }
 
 .app-column {
@@ -296,10 +297,6 @@ div.about {
   flex-direction: row;
   justify-content: center;
   margin-top: 5rem;
-}
-
-div.app-pair > img {
-  height: 500px;
 }
 
 div.app-pair > a {
@@ -320,7 +317,7 @@ div.app-pair > a {
 }
 
 div.app-pair > img {
-  height: 350px;
+  height: 250px;
 }
 
 .links {
@@ -373,12 +370,13 @@ div.app-pair > img {
   justify-content: center;
   align-items: center;
   text-decoration-line: underline;
+  margin-bottom: 5rem;
 }
 
 .contact-column {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 }
 .contact-row {
   display: flex;
@@ -405,7 +403,7 @@ div.app-pair > img {
 }
 
 .contact-col > a:hover {
-  color: #0000E8;
+  color: #0935f8;
 }
 
 footer.temp-row{
