@@ -59,17 +59,15 @@
 
   section.about-me{
     display: flex;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    justify-content: center;
-    margin-bottom: 10rem;
    }
 
   .about {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
     }
 
@@ -77,6 +75,7 @@
     color: white;
     text-decoration-line: underline;
     font-size: 2.5rem;
+    margin-top: 10rem;
   }
 
   .about > p {
@@ -85,10 +84,9 @@
     padding-left: 1.25rem;
     font-family: spartan;
     font-weight: 400;
-    font-size: 1.75rem;
+    font-size: 2.75rem;
     color: white;
     line-height: 2.0;
-    margin-bottom: 8rem;
   }
 
   #skills {
@@ -205,25 +203,25 @@
   div.col-11 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 10rem;
   }
 
-  div.col-11 > div {
-    margin-bottom: 7rem;
+  div.col-11 > h2 {
+    margin-bottom: 1rem;
   }
 
   .contact-row {
     height: 12vh;
-    margin-bottom: 7rem;
+    margin-bottom: 9rem;
   }
 
-  .contact-col > .fa {
-    font-size: 10rem;
+  .contact-col > a:nth-of-type(1) {
+    font-size: 12rem;
   }
 
   .contact-col > a:nth-of-type(2) {
-    font-size: 1.75rem;
+    font-size: 2.25rem;
+    margin-top: 1.25rem;
   }
 
   footer {
