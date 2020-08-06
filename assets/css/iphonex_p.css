@@ -91,7 +91,7 @@
      justify-content: center;
    }
 
-  section.about-me {
+   section.about-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,7 +106,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-top: 10rem;
    }
 
   .about > h2 {
@@ -192,11 +192,12 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin-top: 4rem;
+    margin-top: 20rem;
   }
 
   h2.app-title {
     font-size: 2rem;
+    margin: 0;
   }
 
   .app-rows {
