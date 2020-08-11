@@ -1,0 +1,29 @@
+@media only screen and (max-width: 480px) and (max-height: 320px) and (orientation: landscape) {
+   .bot-left > h1 {
+    font-size: 1.75rem;
+    color: darkblue;
+   }
+
+   .mySlides > h1 {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+   }
+
+     .about > h2 {
+    color: white;
+    text-decoration-line: underline;
+    font-size: 2rem;
+  }
+
+  .about > p {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1.25rem;
+    font-family: spartan;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: white;
+    line-height: 1.75;
+    margin-bottom: 8rem;
+  }
+}

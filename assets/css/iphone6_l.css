@@ -217,9 +217,6 @@
     margin-bottom: 5rem;
   }
 
-  .fa {
-    height: 100px;
-  }
   #contact {
     display: flex;
     flex-direction: row;
