@@ -1,5 +1,28 @@
 @media only screen and (max-width: 480px) and (max-height: 320px) and (orientation: landscape) {
-   .bot-left > h1 {
+
+  #home > div {
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 100%;
+    padding: 2px 2px;
+    background: #6C6A89;
+    color: #f1f1f1;
+    z-index: 3;
+}
+
+  a.nav-link {
+    font-size: 1rem;
+    color: white;
+   }
+
+  a.navbar-brand {
+    font-size: 1.75rem;
+    color: white;
+   }
+
+  .bot-left > h1 {
     font-size: 1.75rem;
     color: darkblue;
    }
@@ -9,13 +32,13 @@
     font-size: 1.25rem;
    }
 
-     .about > h2 {
+   .about > h2 {
     color: white;
     text-decoration-line: underline;
     font-size: 2rem;
   }
 
-  .about > p {
+   .about > p {
     display: flex;
     flex-direction: row;
     padding-left: 1.25rem;
@@ -26,4 +49,59 @@
     line-height: 1.75;
     margin-bottom: 8rem;
   }
+
+  .icon-rows {
+    margin-top: 1rem;
+  }
+
+  .icon {
+    margin: 0.35rem;
+  }
+
+  .icon > img {
+    height: 30px;
+  }
+
+  .icon > h3 {
+    font-size: 0.6rem;
+  }
+
+  #apps {
+    width: 100vw;
+  }
+
+  div.app-pair > img {
+    height: 85px;
+  }
+
+  .app-link {
+    font-family: spartan;
+    font-weight: 400;
+    font-size: 1.0rem;
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .app-link-2 {
+    font-size: 1.0rem;
+    margin: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .contact-column {
+    margin-bottom: 5rem;
+  }
+  .contact-row {
+    height: 15vh;
+    margin-bottom: 1rem;
+  }
+
+  footer.temp-row{
+    height: 35px;
+  }
+
 }
