@@ -6,10 +6,11 @@ body {
 }
 
 .nav-container {
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
   max-width: 100vw;
 }
 
