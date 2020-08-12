@@ -223,15 +223,21 @@ div.about {
 #skills {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
 }
 
 .skills > .col-11 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100vh;
-  margin-top: 4rem;
+  margin-top: 8rem;
+}
+
+.col-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .col-7 > h2 {
