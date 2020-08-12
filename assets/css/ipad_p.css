@@ -71,8 +71,13 @@
      margin-right: 2.75rem;
    }
 
-   .mySlides > h1 {
+  .bot-left > h1 {
     font-size: 2.75rem;
+    color: darkblue;
+  }
+
+   .mySlides > h1 {
+    font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1.5rem;
    }
@@ -83,24 +88,9 @@
      justify-content: center;
    }
 
-  section.about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/about-me-background.jpg);
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-   }
-
-   div.about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   }
-
+  .about > h2 {
+    margin-top: 7rem;
+  }
 
   div.about > p {
     font-size: 2.5rem;
@@ -109,14 +99,6 @@
   #skills {
     display: flex;
     flex-direction: row;
-  }
-
-  .skills > .col-11 {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    margin-bottom: 10rem;
   }
 
   .col-7 > h2 {
@@ -133,6 +115,10 @@
     flex-direction: row;
     height: 100vh;
     flex-wrap: wrap;
+  }
+
+  #skills > .col-11 {
+    margin-bottom: 25rem;
   }
 
   .col-7 > h2 {
@@ -191,6 +177,7 @@
 
   h2.app-title {
     font-size: 2.5rem;
+    margin-top: 10rem;
   }
 
   .app-rows {
