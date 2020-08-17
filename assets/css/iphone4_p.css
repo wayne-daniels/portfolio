@@ -23,7 +23,7 @@
   }
 
    a.nav-link {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     color: white;
    }
 
@@ -37,7 +37,7 @@
    }
 
    .bot-left > h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: darkblue;
    }
 
@@ -79,6 +79,12 @@
      text-align: center;
    }
 
+   .mySlides > h1 {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+   }
+
    .mySlides {
      display: flex;
      flex-direction: row;
@@ -86,12 +92,6 @@
      justify-content: center;
      width: 50%;
      margin-right: 2rem;
-   }
-
-   .mySlides > h1 {
-    font-size: 1.125rem;
-    text-align: center;
-    margin-bottom: 1.0rem;
    }
 
    div.text-align:center {
@@ -105,10 +105,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/about-me-background.jpg);
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
+    margin-bottom: 10rem;
    }
 
    div.about {
@@ -116,7 +113,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10rem;
    }
 
   div.about > h2 {
@@ -127,22 +123,16 @@
     font-size: 1.125rem;
    }
 
-  #skills {
-    display: flex;
-    flex-direction: row;
-  }
-
   .skills > .col-11 {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: center;
+    align-items: center;
   }
 
   .col-7 > h2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     text-decoration-line: underline;
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -153,12 +143,20 @@
     flex-direction: row;
     height: 100vh;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills > .col-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
   }
 
   .skill-row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
   }
 
   .icon {
@@ -215,7 +213,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 1rem;
-    margin-bottom: 15rem;
+    margin-bottom: 20rem;
   }
 
   div.app-pair > img {
@@ -291,14 +289,16 @@
   .contact-row {
     margin-top: 2rem;
     height: 10vh;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
 
   .contact-col > a:nth-of-type(1) {
-    font-size: 9.25rem;
+    font-size: 6.25rem;
+    margin-bottom: 0.5rem;
   }
 
   .contact-col > a:nth-of-type(2) {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
   }
 }
