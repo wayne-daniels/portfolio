@@ -201,6 +201,7 @@ div.about {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .about > h2 {
@@ -231,7 +232,7 @@ div.about {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 .col-7 {
@@ -371,6 +372,10 @@ div.app-pair > img {
   align-items: center;
 }
 
+#contact > .col-11 {
+  margin-bottom: 20rem;
+}
+
 .col-11 > h2 {
   display: flex;
   flex-direction: row;
@@ -383,7 +388,6 @@ div.app-pair > img {
 .contact-column {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15rem;
 }
 .contact-row {
   display: flex;
