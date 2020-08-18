@@ -191,6 +191,10 @@
     justify-content: center;
   }
 
+  #contact > .col-11 {
+    margin-top: 10rem;
+  }
+
   .col-11 > h2 {
     font-size: 4rem;
     margin-bottom: 1rem;
