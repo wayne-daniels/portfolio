@@ -403,7 +403,7 @@ div.app-pair > img {
   align-items: center;
 }
 
-.contact-col > a {
+.contact-col > a:nth-of-type(2) {
   color: #000063;
   font-size: 2rem;
 }
